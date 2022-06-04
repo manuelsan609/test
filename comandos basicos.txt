@@ -1,0 +1,41 @@
+git --version  // ver la version de git
+
+// Configuracion de global de Git
+
+git config --global user.name nombreUsuarios // añadir el nombre de usuario a la configuracion de git
+git config --global user.email mi@correo.com // añadir el email a la configuracion de git
+
+git config  --global core.editor "code --wait" // añadir visual studio code como editor por defecto, el --wait es para que el termina no se cierre
+
+git config --global -e // abre visual studio code y muestra la configuracion global de git
+
+git config --global core.autocrif true/input // configura git segun el sistema opertativo "true" para windows "input" para el resto
+
+git config -h // ver todas las posible configuraciones de git
+
+// comandos basico git
+
+git init // inicia un repositorio de git creando un archivo oculto
+
+git status // muestra el registro de los archivos del proyecto en git
+
+gid add nombreArchivo // añade los archivos al statge, se pueden utilizar "git add ." para añadir todo o "git add *.txt" para añadir todos los archivos con una extension o añadir los archivos separados por un espacio
+git rm nombreArchivo // elimina los archivos del statge
+git restore 
+
+git mv nombreArchivo nuevoNombreAchivo // se cambia el nombre del archivo o su ubicacion
+git commit -m "comentario sobre el commit" // los archivos se han comiteado
+
+
+// GitHub
+
+1º Crear un repositorio en github, y nos dara un comando como este ejemplo: git remote add origin https://github.com/manuelsan609/test1.git
+
+git branch -M main // crear la rama main (principal del repositorio)
+
+git push -u origin main // subir los archivos al repositorio
+
+
+
+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
+
